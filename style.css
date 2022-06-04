@@ -1,0 +1,25 @@
+*,html,body{
+  margin: 0;
+  padding: 0;
+  font-family: monospace;
+}
+.container{
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  height: 100vh;
+  max-width: 100%;
+  background-image: linear-gradient(rgb(61, 61, 61),rgb(112, 110, 110),rgb(182, 182, 182), rgb(209, 209, 209));
+}
+.wrapper{
+  display: flex;
+  width: 300px;
+  height: 500px;
+  object-fit: cover;
+  padding: 15px;
+}
+.wrapper img{
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.733);
+  opacity: 80%;
+}
